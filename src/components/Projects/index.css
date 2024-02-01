@@ -1,0 +1,84 @@
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  background-color: #f1f5f9;
+  height: 20%;
+  width: 100%;
+}
+
+.website-logo {
+  height: 50px;
+  width: 200px;
+  padding-left: 50px;
+  margin: 10px;
+}
+
+.projects-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.drop-down {
+  width: 25%;
+  height: 30px;
+  border: 1px #cbd5e1 solid;
+  border-radius: 5px;
+  margin: 10px;
+  margin-left: 35px;
+}
+
+.projects-list {
+  width: 95%;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-image {
+  height: 250px;
+  width: 300px;
+}
+
+.error-message {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.retry-button {
+  background-color: #328af2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.loading-loader {
+  text-align: center;
+  font-size: 15px;
+}
